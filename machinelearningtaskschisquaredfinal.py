@@ -16,6 +16,7 @@ from matplotlib import pyplot as plt
 import random
 
 #Adapted from https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
+#Initialising the dataframe
 
 import pandas as pd
 
