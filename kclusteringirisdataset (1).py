@@ -63,15 +63,22 @@ axes[1].set_title('Predicted', fontsize=18)
 
 """
 # Adapted from https://developers.google.com/machine-learning/clustering/algorithm/advantages-disadvantages
+#http://playwidtech.blogspot.com/2013/02/k-means-clustering-advantages-and.html
+
 The distinct advantages and disadvantages of a K-Means algorithm.
 
 Advantages:
 K-Means is basic and fast to compute.
 It is very predictive and visualisations are excellent at displaying results.
+If the variables are large, K-Means is more efficient in calculations, than any form of hirerachical clustering 
+as long as the size of the cluster remains small. 
+K-means can produce a more compact cluster, as long as it retains its circular structure. 
 
 Disadvantages:
 K-Means is overly reliant on scale and is not useful for data points containing an amalgamation of differing shapes and characteristics.
 The results are more subjective, peresenting problems in evaluating the findings. It demands much more human investigation than the reliablility that metrics offer.
+It can be difficult to predict the k value. It can be problematice when working with an ecological problem. Commencing with stratifications that can be in anyway erratic,
+may result in entirely different final clustering. If the clusters are a different size or density, it can skew the original data or a cluster.
 
 
 
